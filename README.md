@@ -1,3 +1,11 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/banner-dark.png">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/banner-light.png">
+    <img alt="Async HTTP API — Resonate example" src="./assets/banner-dark.png">
+  </picture>
+</p>
+
 # Resonate Async HTTP API
 
 A simple FastAPI project demonstrating durable, fault-tolerant request processing with Resonate. This project shows how to create an async API that can survive process restarts and handle long-running operations reliably.
