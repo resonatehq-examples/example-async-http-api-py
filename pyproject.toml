@@ -6,6 +6,6 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "fastapi>=0.116.1",
-    "resonate-sdk>=0.6.2",
+    "resonate-sdk>=0.6.7",
     "uvicorn>=0.35.0",
 ]
