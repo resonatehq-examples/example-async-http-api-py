@@ -6,6 +6,12 @@
   </picture>
 </p>
 
+<p align="center">
+  <a href="https://resonatehq.github.io/examples-ci/">
+    <img src="https://img.shields.io/endpoint?url=https://resonatehq.github.io/examples-ci/status/example-async-http-api-py.json" alt="examples-ci status">
+  </a>
+</p>
+
 # Resonate Async HTTP API
 
 A simple FastAPI project demonstrating durable, fault-tolerant request processing with Resonate. This project shows how to create an async API that can survive process restarts and handle long-running operations reliably.
