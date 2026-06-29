@@ -33,14 +33,14 @@ This template demonstrates the async request/response pattern with durable execu
    uv sync
    ```
 
-3. **Run the resonate server**
+3. **Run the Resonate server**
   ```bash
-  resonate serve --aio-store-sqlite-path :memory: --api-http-cors-allow-origin "*" --aio-sender-plugin-poll-cors-allow-origin "*"
+  resonate dev
   ```
 
-4. **Run the server**
+4. **Run the gateway**
    ```bash
-   uv run uvicorn main:app --reload
+   uv run uvicorn main:app --host 127.0.0.1 --port 8000
    ```
 
 5. **Run the worker**
